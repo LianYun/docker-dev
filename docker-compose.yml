@@ -1,0 +1,9 @@
+
+version: "2"
+services:
+ dev:
+  build: dev
+  image: ly/dev
+  working_dir: /source
+  volumes:
+   - ./:/source
